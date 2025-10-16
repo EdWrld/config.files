@@ -1,4 +1,4 @@
-# Edwrld Config Files
+# 💤 LazyVim
 
-### Tmux
-Ensure that you installed tpm prior to running Prefix + I - https://github.com/tmux-plugins/tpm
+A starter template for [LazyVim](https://github.com/LazyVim/LazyVim).
+Refer to the [documentation](https://lazyvim.github.io/installation) to get started.
