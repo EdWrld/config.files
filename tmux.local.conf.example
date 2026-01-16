@@ -1,0 +1,10 @@
+# Local tmux overrides
+# Copy to ~/.config/tmux/tmux.local.conf and adjust paths as needed.
+
+# Open TODO from current pane, fallback to your personal todo file
+bind -r D neww -c "#{pane_current_path}" "[[ -e TODO.md ]] && nvim TODO.md || nvim ~/path/to/your/todo.md"
+
+# Sessionizer shortcuts (optional)
+bind-key -r f run-shell "tmux neww ~/.local/bin/tmux-sessionizer/tmux-sessionizer"
+bind-key -r j run-shell "~/.local/bin/tmux-sessionizer/tmux-sessionizer ~/Projects/your-app/"
+bind-key -r . run-shell "~/.local/bin/tmux-sessionizer/tmux-sessionizer ~/.config/"
