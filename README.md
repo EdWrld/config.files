@@ -40,6 +40,3 @@ If you want personal keybinds or machine-specific paths, copy the example file t
 - lazy.nvim: <https://github.com/folke/lazy.nvim>
 - Neovim: <https://github.com/neovim/neovim>
 - tmux: <https://github.com/tmux/tmux>
-
-## License
-Choose a license and add it here.
